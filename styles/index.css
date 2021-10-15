@@ -288,7 +288,7 @@ input{
 /* Medida de width exacta para motorola g9 power, 412x938 */
     .body-sistemas{
         width: 520px;
-        zoom: 80%;
+        zoom: 79%;
     }
     #barra {
         display: flex;
