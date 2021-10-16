@@ -16,6 +16,7 @@ function mostrarContrasena(){
     const tipo = document.getElementById("password");
     if(tipo.type == "password"){
         tipo.type = "text";
+
     }else{
         tipo.type = "password";
     }
@@ -64,7 +65,7 @@ let ver = document.getElementById("btnSave").addEventListener("click", (e) => {
         document.getElementById("form").style.display = "none"
         document.getElementById("fondoMain2").innerHTML = ``
 
-        document.getElementById("btnBack").style.display = "flex"
+        document.getElementById("btnBack").textContent = "Volver al inicio"
         document.getElementById("btnBack").addEventListener("click",(back()))
        
     } else if ((datos.nombre == "qwe") && (datos.password == "qwe")){
@@ -72,7 +73,7 @@ let ver = document.getElementById("btnSave").addEventListener("click", (e) => {
         document.getElementById("form").style.display = "none"
         document.getElementById("fondoMain2").innerHTML = ``
 
-        document.getElementById("btnBack").style.display = "flex"
+        document.getElementById("btnBack").textContent = "Volver al inicio"
         document.getElementById("btnBack").addEventListener("click",(back()))
     } 
     
@@ -81,7 +82,7 @@ let ver = document.getElementById("btnSave").addEventListener("click", (e) => {
         document.getElementById("form").style.display = "none"
         document.getElementById("fondoMain2").innerHTML = ``
 
-        document.getElementById("btnBack").style.display = "flex" 
+        document.getElementById("btnBack").textContent = "Volver al inicio" 
         document.getElementById("btnBack").addEventListener("click",(back())) }
 
         // Mediante esta estructura condicional valido que no esten vacíos los 2 inputs

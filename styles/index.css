@@ -177,7 +177,7 @@ h2{
     position: absolute;
     left: 20px;
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 130px;
     width: 500px;
     height: 300px;
 }
@@ -186,16 +186,41 @@ input{
     color: black;
 }
 
+#name, #password{
+    margin-top: 15px;
+    border-radius: 15px;
+    font-size: 35px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+    padding-left: 10px;
+}
+
+/* #inputBackground{
+   
+} */
+
 
 .hiddenPassword{
     background-color: var(--main-color) !important;
     border: solid 1px rgb(82, 77, 77) !important;
+    border-radius: 15px !important;
     font-size: 33px;
+    margin-top: 5px;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+    
+}
+
+.eye{
+    
 }
 
 #btnSave{
+  width: 110px;
+  border-radius: 15px;
   color: black;
-  font-size: 29px;
+  font-size: 25px;
+  box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 #btnBack{
